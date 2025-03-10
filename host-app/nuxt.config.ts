@@ -3,8 +3,11 @@ import federation from "@originjs/vite-plugin-federation";
 
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
+  experimental: {
+    asyncEntry: true,
+    externalVue: true,
+  },
   devtools: { enabled: true },
-  builder: "vite",
   vite: {
     plugins: [
       federation({
