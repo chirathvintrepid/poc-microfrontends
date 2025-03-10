@@ -49,3 +49,7 @@ npm run dev
 ## Known Issues
 
 - The build process fails when attempting to externalize Vue.
+
+## Related JIRA task
+
+https://peakadventuretravel.atlassian.net/browse/LA-71
